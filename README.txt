@@ -12,6 +12,8 @@ Matrix Operations: [D represents a number] (always use exact format)
 //SUB: rD-DrD // rD-rD // rD-rD!cDvD
 //CONTROL: u // e [for undo and exit. Exit will print the calculation afterwards]
 
+You can concat multiple Operations into one Step as long as they don't conflict
+
 
 
 cDvD can be used to get a value in a column
