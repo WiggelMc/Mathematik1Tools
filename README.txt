@@ -13,6 +13,7 @@ Matrix Operations: [D represents a number] (always use exact format)
 //CONTROL: u // e [for undo and exit. Exit will print the calculation afterwards]
 
 You can concat multiple Operations into one Step as long as they don't conflict
+Example: r1*3, r2+r3!c1v0, r4+r3!c1v0
 
 
 
