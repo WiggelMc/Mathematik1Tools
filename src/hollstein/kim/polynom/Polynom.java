@@ -1,7 +1,5 @@
 package hollstein.kim.polynom;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.ArrayList;
 
 public class Polynom {
@@ -100,9 +98,9 @@ public class Polynom {
                 }
             } else if (koeffizienten[i] != 0) {
                 if (i == 0) {
-                    polynomString = String.format("%d ",koeffizienten[i],i) + polynomString;
+                    polynomString = String.format("%d ",koeffizienten[i]) + polynomString;
                 } else if (i == 1) {
-                    polynomString = String.format("%dx ",koeffizienten[i],i) + polynomString;
+                    polynomString = String.format("%dx ",koeffizienten[i]) + polynomString;
                 } else {
                     polynomString = String.format("%dx%d ",koeffizienten[i],i) + polynomString;
                 }
@@ -114,7 +112,7 @@ public class Polynom {
         return polynomString.trim();
     }
 
-    public PolynomDivision teilePolynom(@NotNull Polynom polynom, int basis) {
+    public PolynomDivision teilePolynom(Polynom polynom, int basis) {
         int[] p1 = removeTrailingZeros(simplifyBasis(this.getKoeffizienten(),basis));
         int[] p2 = removeTrailingZeros(simplifyBasis(polynom.getKoeffizienten(),basis));
 
