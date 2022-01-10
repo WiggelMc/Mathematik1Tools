@@ -1,3 +1,5 @@
+Disclaimer: Can't guarantee correct Results
+
 Made using Java 8 (temurin) [select in File: Project Structure]
 To use:
 Copy a part of the Main Class into its own class in run
